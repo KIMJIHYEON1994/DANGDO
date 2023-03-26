@@ -1,0 +1,117 @@
+/* 가장 큰 틀 */
+#wrapper {
+    height: 100vh;
+  }
+
+/* 게시글, 글작성 버튼 표시 */
+#writeBtn{
+    margin : 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+#writeBtn > button {
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+/* 중간 틀 */
+#imgCard{
+  margin :100px 150px;
+  
+}
+
+
+/* 게시글 아래 더 많은 게시글 버튼 있는 곳 */
+#listBtn {
+  margin: 100px 100px;
+
+  border-top: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+#listBtn > button {
+  border-radius: 50px;
+
+  margin: 20px;
+
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+
+/* 가장 큰 틀 */
+#wrapper {
+  height: 100vh;
+}
+
+
+#writeBtn > button {
+border-radius: 50px;
+margin-right: 20px;
+}
+
+/* 중간 틀 */
+#imgCard{
+margin :100px 150px;
+
+}
+
+/* 게시글 작성폼 */
+#item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50vw;
+  max-height: max-content;
+
+  padding: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 게시글 작성 내부 텍스트 */
+#tf {
+
+}
+
+/* 게시글 작성 내부 버튼 */
+#tfBtn {
+  margin: 20px 0px 20px 10px;
+  float: right;
+}
+
+/* 사진들어갈 박스 */
+#imgBox{
+position: relative;
+left: 50%;
+top: 50%;
+transform: translate(-50%, 0%);
+width: 200px;
+height: 200px;
+
+margin-bottom: 30px;
+
+border: 1px solid rgba(0, 0, 0, 0.3) ;
+border-radius: 50%;
+}
+
+/* 파일 넣어줄 버튼 */
+#imgBtn {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+#md {
+  background-color: white;
+}
